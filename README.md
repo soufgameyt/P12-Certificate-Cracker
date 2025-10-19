@@ -11,5 +11,5 @@
 Example (Linux/macOS):
 
 ```sh
-gcc -std=c11 P12Cracker.c -o p12crack -lssl -lcrypto
+gcc -std=c11 P12Cracker.c -o P12Cracker -lssl -lcrypto
 ```
