@@ -1,2 +1,15 @@
-# P12-Certificate-Cracker
-A small PKCS#12 Certificate (.p12/.pfx) Cracker in C using OpenSSL
+# P12-Certificate Cracker
+> A small PKCS#12 (.p12/.pfx) password cracker written in C using OpenSSL.
+
+---
+## Requirements
+- OpenSSL
+- MacOS/Linux (because of sys/stat.h)
+---
+
+## Build
+Example (Linux/macOS):
+
+```sh
+gcc -std=c11 P12Cracker.c -o p12crack -lssl -lcrypto
+```
